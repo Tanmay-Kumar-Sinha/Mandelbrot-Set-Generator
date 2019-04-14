@@ -2,7 +2,10 @@ import matplotlib.pyplot as plt
 import sys
 import numpy as np
 
-f = open(sys.argv[1])
+if(len(sys.argv) < 2):
+  f = open('data.dat')
+else:
+  f = open(sys.argv[1])
 text = f.read()
 text1 = text.split('\n')
 x_len = len(text1)
