@@ -40,13 +40,13 @@ int main() {
   double x_max = -0.37;
   double y_min = -0.732;
   double y_max = -0.5;
-
 */
-/*  double x_min = -0.434;
+
+  double x_min = -0.434;
   double x_max = -0.396;
   double y_min = -0.614;
   double y_max = -0.578;
-*/
+
 /*
   double x_min = -0.4198868;
   double x_max = -0.4115724;
@@ -54,12 +54,12 @@ int main() {
   double y_max = -0.586827;
 */
 
-  double x_min = -2;
+/*  double x_min = -2;
   double x_max = 2;
   double y_min = -2;
   double y_max = 2;
 
-  int x_resolution,y_resolution;
+*/  int x_resolution,y_resolution;
   x_resolution = 2000;
   y_resolution = 2000;
 
