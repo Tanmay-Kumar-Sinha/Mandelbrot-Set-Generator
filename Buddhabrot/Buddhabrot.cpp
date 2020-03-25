@@ -55,7 +55,7 @@ void output_buddhabrot(double x_min,double x_max,double y_min,double y_max,int x
           int i = ((real(z) - x_min)/delta_x);
           int j = ((imag(z) - y_min)/delta_y);
           // cout << i << " " << j << " ";
-          if(i < x_resolution && j < y_resolution && i >= 0 && j >= 0) M[i][j] += 1.0;
+          if(i < x_resolution && j < y_resolution && i >= 0 && j >= 0) M[i][j] += 5.0;
         }  
       }
       b += delta_x;
